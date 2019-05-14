@@ -19,13 +19,13 @@ public class GermanShepherdSimulator {
         System.out.println("Oh, I just realize that is time to eat. I'm in a growing phase so");
         germanShepherd.setEatBehavior(new ProteinDiet());
         germanShepherd.eat();
-        System.out.println("But I guess this is temporary. When I'll be a bigger boy, I probably will enter on a");
+        System.out.println("But I guess this is temporary. When I'll be a bigger boy, I probably will enter a");
         germanShepherd.setEatBehavior(new NormalDiet());
         germanShepherd.eat();
         System.out.println("WAIT! I'm seeing a strange person.");
         germanShepherd.setBarkBehavior(new LoudBark());
         germanShepherd.bark();
-        System.out.println("Hahahaha I love scaring stranges.");
+        System.out.println("Hahahaha I love scaring strangers.");
         System.out.println("It's nap time!!! It was a pleasure to talk to you, human!");
         germanShepherd.setBarkBehavior(new LazyBark());
         germanShepherd.bark();
